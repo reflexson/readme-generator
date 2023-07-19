@@ -61,7 +61,7 @@ inquirer
     .prompt(questions)
     .then((answers) => {
         const readMeContent = generateMarkdown(answers);
-        fs.writeFile('README.md', readMeContent, (err) =>
+        fs.writeFile('./Output/README.md', readMeContent, (err) =>
           err ? console.log(err) : console.log('Successfully created README.md!')
         );
       });

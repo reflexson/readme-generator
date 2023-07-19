@@ -29,19 +29,19 @@ function renderLicenseSection(license) {
   if (license == 'Apache 2.0 License') {
     return `## License
 
-This project is licensed under the Apache 2.0 license.\nhttps://opensource.org/licenses/Apache-2.0`;
+This project is licensed under the Apache 2.0 license.\n https://opensource.org/licenses/Apache-2.0`;
   }else if(license =='MIT License'){
     return `## License
 
-This project is licensed under the MIT license.\nhttps://opensource.org/licenses/MIT`;
+This project is licensed under the MIT license.\n https://opensource.org/licenses/MIT`;
   }else if(license =='Mozilla Public License 2.0'){
     return `## License
 
-This project is licensed under the Mozilla Public License 2.0.\nhttps://opensource.org/licenses/MPL-2.0`;
+This project is licensed under the Mozilla Public License 2.0.\n https://opensource.org/licenses/MPL-2.0`;
   }else if(license =='The Unlicense'){
     return `## License
 
-This project is licensed under The Unlicense license.\nhttps://choosealicense.com/licenses/unlicense/`;
+This project is licensed under The Unlicense license.\n https://choosealicense.com/licenses/unlicense/`;
   }else{
   return '';
 }}
