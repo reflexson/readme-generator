@@ -24,7 +24,7 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'What command should be run to run tests?',
+        message: 'What command should be used to run tests?',
         default: 'npm test',
     },
     {
@@ -41,7 +41,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'What does the user need to know about contributing to the repo?',
+        message: 'What does the user need to know about contributing to the project?',
     },
     {
         type: 'input',
