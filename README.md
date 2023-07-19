@@ -20,11 +20,14 @@
 
 
 ## Description
-This project is a tool to create Readmes. Users are presented with questions that will fill out the Readme.
+This project is a tool to create Readmes. Users are presented with questions about their project.  The answers will be used to fill out a 
+fresh Readme file that can be used as a guide for the aapp;ication. 
 
 
 
 ## Installation
+
+Clone this repo to a folder on your local computer.
 
 To istall the necessary dependencies for this project, please run the folowing command:
 ```
@@ -33,7 +36,8 @@ npm i
 
 ## Usage
 
-Node.js must be run from the root folder of this demo
+Here is a video depicting the functionality of the app.
+https://drive.google.com/file/d/19Yb8PHKBqwl8XYMrVPwXgimCWVFUUbWB/view
 
 ## License
 
@@ -42,7 +46,7 @@ https://opensource.org/licenses/MIT
 
 ## Contributing
 
-Users must for this repo to addd to it.
+NA
 
 ## Test
 
